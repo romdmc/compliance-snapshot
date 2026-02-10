@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compliance Snapshot – Pilotez votre maturité conformité</title>
+  <meta name="description" content="Audit flash, scoring et recommandations actionnables pour structurer vos chantiers conformité.">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/scoring.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Compliance Snapshot</div>
+    <nav>
+      <a href="/">Produit</a>
+      <a href="/blog/">Blog</a>
+      <a href="/acquisition/">Page acquisition</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <span class="tag">Audit flash · <strong>28 indicateurs</strong></span>
+        <h1>Visualisez votre risque conformité en 72 heures</h1>
+        <p>Compliance Snapshot condense vos politiques, process et preuves pour produire un score partagé avec vos investisseurs, votre COMEX et vos équipes revenue. Pas de jargon : un plan d'attaque priorisé.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:ops@compliancesnapshot.studio?subject=On%20lance%20un%20Snapshot">Booker un audit</a>
+          <a class="btn btn-ghost" href="https://buy.stripe.com/test_aEU3eIfKmdgw3uQ8ww" target="_blank" rel="noopener">Payer maintenant (Stripe)</a>
+        </div>
+        <div class="badge-row" style="margin-top:1.2rem;">
+          <span class="badge">RGPD + ISO 27001 ready</span>
+          <span class="badge">Ans Fridays: coaching live</span>
+          <span class="badge">Score exploitable par board deck</span>
+        </div>
+      </div>
+      <div>
+        <div class="metric-grid">
+          <div class="metric">
+            <h3>Temps moyen</h3>
+            <p class="highlight">72 h</p>
+            <p>de la collecte à la restitution CEO + DAF.</p>
+          </div>
+          <div class="metric">
+            <h3>Chantiers déclenchés</h3>
+            <p class="highlight">+11</p>
+            <p>initiatives priorisées par client en moyenne.</p>
+          </div>
+          <div class="metric">
+            <h3>Économie</h3>
+            <p class="highlight">-35%</p>
+            <p>vs cabinet Big4 sur périmètre équivalent.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Stack produit</h2>
+      <div class="features">
+        <article class="feature-card">
+          <h3>Scoring dynamique</h3>
+          <p>28 variables pondérées couvrant gouvernance, juridique, sécu, data privacy et reporting. Algorithme open-source pour transparence totale.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Playbooks pré-packagés</h3>
+          <p>Plans d'action prêts à exécuter par sprint, reliés à vos owners internes + effort estimé (S, M, L).</p>
+        </article>
+        <article class="feature-card">
+          <h3>Data room & preuves</h3>
+          <p>Checklist de pièces et preuve de contrôle. Upload sécurisé avec expiration à 30 jours.</p>
+        </article>
+        <article class="feature-card">
+          <h3>CTA Stripe & email</h3>
+          <p>Payez le snapshot ou réservez un créneau expert directement depuis le site. Le workflow alimente HubSpot/Notion.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Simulator instantané</h2>
+      <div class="scoring-widget">
+        <div class="score-panel">
+          <div class="score-value" id="scoreValue">72</div>
+          <div class="score-status" id="scoreStatus">Maturité contrôlée</div>
+          <p style="color:var(--muted);">Le score cible 85+ pour une série B.</p>
+        </div>
+        <form class="form-grid" id="scoreForm">
+          <label>Région d'opération
+            <select name="region">
+              <option value="eu">UE / UK</option>
+              <option value="us">US / Canada</option>
+              <option value="multi">Multi zone</option>
+            </select>
+          </label>
+          <label>Industrie
+            <select name="industry">
+              <option value="saas">SaaS B2B</option>
+              <option value="fintech">Fintech</option>
+              <option value="health">Health / Bio</option>
+              <option value="other">Autre</option>
+            </select>
+          </label>
+          <label>Nombre de clients payants
+            <input type="number" name="customers" min="0" value="150" />
+          </label>
+          <label>Incidents sécurité recensés 12 derniers mois
+            <input type="number" name="incidents" min="0" value="1" />
+          </label>
+          <label>Politiques documentées
+            <select name="policies">
+              <option value="full">Complet (≥8 politiques)</option>
+              <option value="partial">Partiel (3-7)</option>
+              <option value="light">Basique (≤2)</option>
+            </select>
+          </label>
+          <button type="submit" class="btn btn-primary">Évaluer</button>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <h2>Blog – intelligence conformité</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <p class="tag" style="margin-bottom:0.8rem;">04 Février 2026</p>
+          <h3>Transformer un audit en roadmap produit</h3>
+          <p>Comment un SaaS santé a converti la restitution Snapshot en backlog produit priorisé pour sa squad platform.</p>
+          <a href="/blog/transformer-audit-roadmap.html">Lire →</a>
+        </article>
+        <article class="blog-card">
+          <p class="tag" style="margin-bottom:0.8rem;">29 Janvier 2026</p>
+          <h3>RGPD : ce que regardent vos investisseurs</h3>
+          <p>Due diligence, clauses type et preuves de minimisation : check-list à partager avant votre prochaine levée.</p>
+          <a href="/blog/investisseurs-rgpd.html">Lire →</a>
+        </article>
+        <article class="blog-card">
+          <p class="tag" style="margin-bottom:0.8rem;">17 Janvier 2026</p>
+          <h3>ISO 27001 sans BS</h3>
+          <p>Nos patrons de politiques et contrôles prêts à l'emploi pour accélérer vos sprint de certification.</p>
+          <a href="/blog/iso-27001-rapide.html">Lire →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer">
+    <p>© 2026 Compliance Snapshot — Studio DOMRO</p>
+  </div>
+</body>
+</html>

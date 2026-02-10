@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compliance Snapshot · Page acquisition</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Compliance Snapshot</div>
+    <nav>
+      <a href="/">Produit</a>
+      <a href="/blog/">Blog</a>
+      <a href="/acquisition/">Page acquisition</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <span class="tag">Campagne Series B readiness</span>
+      <h1>Un audit conformité prêt à pitcher à vos investisseurs</h1>
+      <p style="color:var(--muted); max-width:720px;">Ce funnel cible CEOs, COOs et CFOs préparant leur levée série A/B. L'objectif : booker un créneau ou payer directement le Snapshot Express (12k€ HT).</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://buy.stripe.com/test_aEU3eIfKmdgw3uQ8ww" target="_blank" rel="noopener">Lancer l'achat Stripe</a>
+        <a class="btn btn-ghost" href="mailto:ops@compliancesnapshot.studio?subject=On%20priorise%20Compliance%20Snapshot">Parler à un partner</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Argumentaire</h2>
+      <div class="features">
+        <article class="feature-card">
+          <h3>Output prêt pour le board deck</h3>
+          <p>Slides + scores + feuille de route convertibles dans votre template existant (Pitch, Frontify, Gamma...).</p>
+        </article>
+        <article class="feature-card">
+          <h3>Risk narrative</h3>
+          <p>Nous écrivons la partie « Compliance & Risk » de votre memo investisseur avec KPIs comparables.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Support fundraising</h3>
+          <p>Q&A room alimentée pendant 30 jours pour répondre aux diligences.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formulaire acquisition</h2>
+      <form class="form-grid" name="acquisition" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="acquisition" />
+        <label>Nom complet
+          <input type="text" name="name" required />
+        </label>
+        <label>Email pro
+          <input type="text" name="email" required />
+        </label>
+        <label>Entreprise
+          <input type="text" name="company" required />
+        </label>
+        <label>Stade de financement
+          <select name="stage">
+            <option value="seed">Pre-Seed / Seed</option>
+            <option value="seriesA">Series A</option>
+            <option value="seriesB">Series B</option>
+            <option value="growth">Growth</option>
+          </select>
+        </label>
+        <label>Message
+          <textarea name="message" rows="4" placeholder="Racontez-nous votre enjeu conformité"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Je veux mon Snapshot</button>
+      </form>
+    </section>
+  </main>
+  <div class="footer">
+    <p>© 2026 Compliance Snapshot — Studio DOMRO</p>
+  </div>
+</body>
+</html>
